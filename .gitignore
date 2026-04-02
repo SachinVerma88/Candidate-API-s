@@ -1,0 +1,75 @@
+# 🐍 Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# 🧪 Virtual Environment
+
+venv/
+env/
+ENV/
+.venv/
+
+# 📦 Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🔐 Environment variables
+
+.env
+.env.*
+
+# 🗄️ Database files
+
+*.db
+*.sqlite3
+
+# 📝 Logs
+
+*.log
+
+# 📁 IDE / Editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🧾 OS files
+
+.DS_Store
+Thumbs.db
+
+# 🧪 Testing
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 📦 FastAPI / Uvicorn
+
+*.pid
+*.sock
+
+# 📁 Migrations (optional if using Alembic)
+
+migrations/
+
+# 🔒 Secrets
+
+secrets.json
